@@ -13,7 +13,7 @@ from insighttrail import InsightTrailMiddleware
 ```
 
 ## What Is New
-- Common API for Flask and FastAPI (`InsightTrail(app, ...)`)
+- Common API for Flask and FastAPI (`InsightTrailMiddleware(app, ...)`)
 - Dashboard is isolated to `url_prefix` (default `/insight`) and no longer collides with host app `/`
 - Lightweight UI stack: Milligram + uPlot (removed Bootstrap, DataTables, jQuery, Chart.js)
 - Internal dashboard requests can be excluded from logs/metrics (enabled by default)
